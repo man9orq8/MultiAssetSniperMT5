@@ -1,4 +1,4 @@
-
+#property copyright "Copyright 2026, Mansour Alajmi"
 #property link      ""
 #property version   "1.00"
 #property strict
