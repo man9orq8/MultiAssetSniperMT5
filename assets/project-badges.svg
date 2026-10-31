@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="170" viewBox="0 0 1120 170" role="img" aria-label="Assets: XAUUSD, EURUSD. Platform: MetaTrader 5. Strategy: Martingale Grid. Account: Exness Demo or Real.">
+  <rect x="0" y="12" width="135" height="58" fill="#555555"/>
+  <rect x="135" y="12" width="430" height="58" fill="#FFD500"/>
+  <rect x="585" y="12" width="175" height="58" fill="#555555"/>
+  <rect x="760" y="12" width="360" height="58" fill="#0879C7"/>
+  <rect x="0" y="97" width="175" height="58" fill="#555555"/>
+  <rect x="175" y="97" width="390" height="58" fill="#C84549"/>
+  <rect x="585" y="97" width="175" height="58" fill="#555555"/>
+  <rect x="760" y="97" width="360" height="58" fill="#2A9D73"/>
+  <g font-family="Arial, Helvetica, sans-serif" dominant-baseline="middle" letter-spacing="2">
+    <text x="23" y="41" fill="#FFFFFF" font-size="22">ASSETS</text>
+    <text x="350" y="41" fill="#242424" font-size="22" font-weight="bold" text-anchor="middle">XAUUSD · EURUSD</text>
+    <text x="610" y="41" fill="#FFFFFF" font-size="22">PLATFORM</text>
+    <text x="940" y="41" fill="#FFFFFF" font-size="23" font-weight="bold" text-anchor="middle">METATRADER 5</text>
+    <text x="25" y="126" fill="#FFFFFF" font-size="22">STRATEGY</text>
+    <text x="370" y="126" fill="#FFFFFF" font-size="23" font-weight="bold" text-anchor="middle">MARTINGALE GRID</text>
+    <text x="610" y="126" fill="#FFFFFF" font-size="22">ACCOUNT</text>
+    <text x="940" y="126" fill="#FFFFFF" font-size="23" font-weight="bold" text-anchor="middle">EXNESS DEMO / REAL</text>
+  </g>
+</svg>
