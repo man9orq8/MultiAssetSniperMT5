@@ -732,13 +732,11 @@ int OnInit()
    long accountTradeMode = AccountInfoInteger(ACCOUNT_TRADE_MODE);
    string company = AccountInfoString(ACCOUNT_COMPANY);
    string server  = AccountInfoString(ACCOUNT_SERVER);
-   bool isExness = StringFind(company, "Exness") >= 0;
-   bool isTrialDemo = accountTradeMode == ACCOUNT_TRADE_MODE_DEMO &&
-                      StringFind(server, "Trial") >= 0;
+   bool isDemoAccount = accountTradeMode == ACCOUNT_TRADE_MODE_DEMO;
    bool isRealAccount = accountTradeMode == ACCOUNT_TRADE_MODE_REAL;
-   if(!isExness || (!isTrialDemo && !isRealAccount))
+   if(!isDemoAccount && !isRealAccount)
    {
-      PrintFormat("⛔ EA yalnızca Exness Trial Demo veya Exness Real hesaplarında çalışır. Company: %s | Server: %s | Trade mode: %s",
+      PrintFormat("⛔ EA requires an MT5 Demo or Real account. Company: %s | Server: %s | Trade mode: %s",
                   company, server, EnumToString((ENUM_ACCOUNT_TRADE_MODE)accountTradeMode));
       return INIT_FAILED;
    }
